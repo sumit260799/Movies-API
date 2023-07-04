@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
 // MongoDB connection string
-const uri =
-  "mongodb+srv://mail2sumitjpg:Sumit90@cluster0.ifl16b4.mongodb.net/moviesDB";
+const uri = `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.ifl16b4.mongodb.net/moviesDB`;
 
 // Connect to MongoDB
 mongoose.connect(uri, {
