@@ -3,7 +3,7 @@ const moviesData = [
     name: "Transformers: Rise of the Beasts",
     imdb: 6.5,
     desc: "During the '90s, a new faction of Transformers - the Maximals - join the Autobots as allies in the battle for Earth.",
-    genre: Action, Adventure, Sci-Fi",
+    genre: "Action, Adventure, Sci-Fi",
 
     poster:
       "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
